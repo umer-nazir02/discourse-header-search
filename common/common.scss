@@ -168,4 +168,9 @@ a.search-link {
 .search-header--visible .floating-search-input .search-banner-inner.wrap .search-menu .search-input{
   border-radius: 4px;
   padding: 0 0 0 .5em;
+  border-color: #d0d0d0;
+}
+
+.search-header--visible .floating-search-input .search-banner-inner.wrap .search-menu .search-input .search-term__input::placeholder{
+  color:#757575ab; 
 }
