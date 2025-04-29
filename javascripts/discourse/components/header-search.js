@@ -43,7 +43,7 @@ export default class HeaderSearch extends Component {
     );
   }
 
-  get shouldDisplay() {
+  get shouldDisplay() { 
     return (
       this.displayForUser &&
       !this.site.mobileView &&
