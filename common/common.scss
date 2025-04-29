@@ -106,10 +106,11 @@ a.search-link {
         .search-input {
           display: flex;
           padding: 0 0 0 1.5em;
+          height: 46px;
           border-radius: var(--d-input-border-radius);
 
           .search-term__input {
-            height: 100%;
+            // height: 100%;
             width: 100%;
             margin: 0;
             padding: 0.5em;
