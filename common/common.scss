@@ -105,9 +105,9 @@ a.search-link {
 
         .search-input {
           display: flex;
-          padding: 0 0 0 1.5em;
+          padding: 0 0 0 0.5em;
           height: 46px;
-          border-radius: var(--d-input-border-radius);
+          border-radius: 4px;
 
           .search-term__input {
             // height: 100%;
@@ -155,4 +155,16 @@ a.search-link {
   &:hover .d-icon {
     color: var(--primary-high);
   }
+}
+
+
+.search-menu .search-input-wrapper, .search-menu-container .search-input-wrapper{
+  width: 345px;
+  height: 44px;
+}
+.floating-search-input{
+  margin: 0 auto 0 20px;  
+}
+.search-header--visible .floating-search-input .search-banner-inner.wrap .search-menu .search-input{
+  border-radius: 4px;
 }
